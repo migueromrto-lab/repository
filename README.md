@@ -1,8 +1,17 @@
-<img src="assets/profile.jpg" alt="Miguel Romero" width="150" align="left" style="margin-right: 20px;">
+<table>
+<tr>
+<td width="150">
+<img src="assets/profile.jpg" width="150" alt="Miguel Romero">
+</td>
+<td>
 
 # Miguel Romero — Data Science & Analytics Portfolio
 
-Data Scientist with a generalist, business-driven profile, working across retail, banking, marketing, and e-commerce. I combine a Master's in Data Science & AI with a previous career in linguistics and education — a background that shows up directly in how I communicate technical findings to non-technical stakeholders. 
+Data Scientist with a generalist, business-driven profile, working across retail, banking, marketing, and e-commerce. I combine a Master's in Data Science & AI with a previous career in linguistics and education — a background that shows up directly in how I communicate technical findings to non-technical stakeholders.
+
+</td>
+</tr>
+</table>
 
 **What I bring from my previous career:** clear communication, structuring complex information for different audiences, and adapting explanations to the listener — skills that transfer directly into translating model results into decisions a business stakeholder can act on.
 
