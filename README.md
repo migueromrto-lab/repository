@@ -30,7 +30,7 @@ Data Scientist with a generalist, business-driven profile, working across retail
 
 | Project | Stack | Description |
 | :---- | :---- | :---- |
-| [Cost-Sensitive Malware Detection](./malware-detection/malware_classification_miguel.ipynb) | Python, scikit-learn, LightGBM, Pandas | Classification model on 500K devices with a leakage-free preprocessing pipeline; benchmarked 4 algorithms by AUC and optimized the decision threshold against a false-negative/false-positive cost matrix. |
+| [Cost-Sensitive Malware Detection](./malware-detection/malware_classification_miguel(1).ipynb) | Python, scikit-learn, LightGBM, Pandas | Classification model on 500K devices with a leakage-free preprocessing pipeline; benchmarked 4 algorithms by AUC and optimized the decision threshold against a false-negative/false-positive cost matrix. |
 | *Coming soon* | — | EDA \+ business storytelling project |
 | *Coming soon* | — | Interactive Power BI / Tableau dashboard |
 | *Coming soon* | — | Project with less-clean data (scraping / API sourcing) |
