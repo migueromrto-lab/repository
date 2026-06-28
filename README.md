@@ -1,4 +1,4 @@
-<img src="assets/profile.jpg" alt="Miguel Romero" width="150" align="left" style="margin-right: 20px;">
+
 
 # Miguel Romero — Data Science & Analytics Portfolio
 
