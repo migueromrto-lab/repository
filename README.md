@@ -22,7 +22,7 @@ Data Scientist with a generalist, business-driven profile, working across retail
 | Area | Tools |
 | :---- | :---- |
 | Languages | Python, SQL |
-| ML / Modeling | scikit-learn, LightGBM, supervised ML, Deep Learning (in progress) |
+| ML / Modeling | scikit-learn, LightGBM, supervised ML, Deep Learning |
 | Visualization / BI | Power BI, Tableau |
 | Other | Pandas, Generative AI / agentic workflows (RAG, LangChain) — in progress |
 
