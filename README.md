@@ -1,6 +1,6 @@
 # Malware Detection from Device Telemetry
 
-Binary classification project on the Microsoft Malware Prediction dataset (Kaggle): predicting whether a device has detected malware based on \~80 hardware, OS, and security-configuration features.
+Binary classification project on the Microsoft Malware Prediction dataset: predicting whether a device has detected malware based on \~80 hardware, OS, and security-configuration features.
 
 ## Business framing
 
