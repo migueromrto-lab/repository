@@ -5,7 +5,7 @@ Predicts which existing easyMoney customers are most likely to purchase
 margin) — in order to prioritize a limited-budget cross-sell campaign instead
 of contacting the full customer base.
 
-Built as part of a 4-person team's final Master's project (TFM), simulating a
+Built as part of a 3-person team's final Master's project (TFM), simulating a
 real fintech business case. Full team repo:
 [grupo-1-dscesp-0226](https://github.com/SandraMartinezg/grupo-1-dscesp-0226).
 
