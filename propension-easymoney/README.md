@@ -1,4 +1,4 @@
-# Pension Plan Propensity Model — easyMoney (TFM Team Project)
+# Pension Plan Propensity Model — easyMoney (Team Project)
 
 Predicts which existing easyMoney customers are most likely to purchase
 `pension_plan` — the highest-margin product in the portfolio (79% of total
