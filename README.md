@@ -26,12 +26,13 @@ Data Scientist with a generalist, business-driven profile, working across retail
 | Visualization / BI | Power BI, Tableau |
 | Other | Pandas, Generative AI / agentic workflows (RAG, LangChain) |
 
+
 ## Projects
 
 | Project | Stack | Description |
 | :---- | :---- | :---- |
 | [Cost-Sensitive Malware Detection](./malware-detection/malware_classification_miguel.ipynb) | Python, scikit-learn, LightGBM, Pandas | Classification model on 500K devices with a leakage-free preprocessing pipeline; benchmarked 4 algorithms by AUC and optimized the decision threshold against a false-negative/false-positive cost matrix. |
-| *Coming soon* | — | EDA \+ business storytelling project |
+| [Who's Buying Next? — Propensity Scoring for Cross-Sell](./propension-easymoney/1_Modelo_Propension_PensionPlan.ipynb) | Python, scikit-learn, Pandas | Business-driven propensity model on a 5.9M-row monthly customer panel (team TFM project); temporal split, decile/lift analysis, and Random Forest benchmark — 7x conversion lift over untargeted contact, capturing 55% of real buyers by targeting only the top 10% of customers. |
 | *Coming soon* | — | Interactive Power BI / Tableau dashboard |
 | *Coming soon* | — | Project with less-clean data (scraping / API sourcing) |
 
