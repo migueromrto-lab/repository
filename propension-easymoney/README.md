@@ -60,7 +60,7 @@ alone wouldn't surface.
 
 ## Files
 
-- [`propension_pension_plan_miguel.ipynb`](./propension_pension_plan_miguel.ipynb) — full technical notebook
+- [`propension_pension_plan_miguel.ipynb`](./Modelo_Propension_PensionPlan.ipynb) — full technical notebook
 - [`Informe_Propension_PensionPlan.pdf`](./Informe_Propension_PensionPlan.pdf) — executive summary, business-facing
 
 ## Stack
