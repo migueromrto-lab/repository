@@ -83,7 +83,7 @@ The filtered shortlist is scored (0–100) using a weighted combination of prima
 
 ## 7. Demo
 
-[Dashboard walkthrough video — link pending]
+[![Dashboard walkthrough](https://img.youtube.com/vi/nLq9NIM0Zks/maxresdefault.jpg)](https://youtu.be/nLq9NIM0Zks)
 
 ## 8. Repository Structure
 
