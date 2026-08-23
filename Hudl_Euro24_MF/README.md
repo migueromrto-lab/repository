@@ -1,6 +1,6 @@
 # Euro 2024 Midfield Comparison: Kroos vs. Rodri vs. Rice
 
-**Data analysis & visualization project — StatsBomb open data**
+**Data analysis & visualization project — Hudl open data**
 
 <p align="center">
   <img src="../assets/progr.png" width="600" alt="Progressive passes: Kroos vs Rodri">
