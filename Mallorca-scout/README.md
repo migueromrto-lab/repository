@@ -82,7 +82,7 @@ The filtered shortlist is scored (0–100) using a weighted combination of prima
 
 `Python` (pandas, RapidFuzz, LanusStats) · `Power BI` · FBref / Understat / Transfermarkt / Sofascore as data sources
 
-## 7. Demo (click the image below to watch)
+## 7. Demo (click the image below to watch the video)
 
 [![Dashboard walkthrough](https://img.youtube.com/vi/nLq9NIM0Zks/maxresdefault.jpg)](https://youtu.be/nLq9NIM0Zks)
 
