@@ -2,10 +2,11 @@
 
 **Data analysis & visualization project — StatsBomb Open Data**
 
+📄 [Full report (PDF)](reports/EURO2024MF.pdf)
+
 <p align="center">
   <img src="../assets/progr.png" width="600" alt="Progressive passes: Kroos vs Rodri">
 </p>
-
 ## 1. The Question
 
 Euro 2024 was decided in the midfield. Three players, three different profiles at the same position — Toni Kroos (creative), Rodri (holding midfielder, Player of the Tournament), and Declan Rice (box-to-box) — raised an obvious question: who actually had the bigger impact, and how do their styles differ once you look past the eye test?
