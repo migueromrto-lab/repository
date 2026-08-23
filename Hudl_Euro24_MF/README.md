@@ -12,7 +12,7 @@ Euro 2024 was decided in the midfield. Three players, three different profiles a
 
 ## 2. Data Source
 
-- **StatsBomb Euro 2024 open dataset**, accessed via the `statsbombpy` API (competition_id=55, season_id=282).
+- **Hudl Euro 2024 open dataset**, accessed via the `statsbombpy` API (competition_id=55, season_id=282).
 - Full event-level, lineup, and 360° freeze-frame data pulled for every match of the tournament.
 
 ## 3. Data Pipeline
