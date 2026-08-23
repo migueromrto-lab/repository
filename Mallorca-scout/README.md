@@ -82,24 +82,13 @@ The filtered shortlist is scored (0–100) using a weighted combination of prima
 
 `Python` (pandas, RapidFuzz, LanusStats) · `Power BI` · FBref / Understat / Transfermarkt / Sofascore as data sources
 
-## 7. Demo
+## 7. Demo (click the image below to watch)
 
 [![Dashboard walkthrough](https://img.youtube.com/vi/nLq9NIM0Zks/maxresdefault.jpg)](https://youtu.be/nLq9NIM0Zks)
 
 ## 8. Repository Structure
 
-```
-.
-├── README.md
-├── notebooks/
-│   └── data_cleaning_and_entity_matching.ipynb   # data extraction, cleaning, and fuzzy matching (FBref + Transfermarkt)
-├── dashboard/
-│   └── screenshots/                              # 2-3 static views of the Power BI dashboard
-└── docs/
-    └── executive_summary.pdf                     # optional: condensed summary of the full thesis
-```
-
-Only one notebook is included in the repo — the data cleaning and entity-matching pipeline — since it best demonstrates the skills most transferable to a data role outside sports: turning messy, multi-source data into a clean, unified, analysis-ready dataset. The scoring and dashboard logic are documented in this README rather than included as raw code, to keep the repo focused and easy to review.
+Two notebooks are included — the cleaning step and the entity-matching step — since together they best demonstrate the skills most transferable to a data role outside sports: turning messy, multi-source data into a clean, unified, analysis-ready dataset. The scoring and dashboard logic are documented in this README rather than included as raw code, to keep the repo focused and easy to review.
 
 ## 9. Limitations & Future Work
 
