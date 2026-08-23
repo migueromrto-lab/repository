@@ -3,7 +3,7 @@
 **Data analysis & visualization project — StatsBomb open data**
 
 <p align="center">
-  <img src="assets/progr.png" width="600" alt="Progressive passes: Kroos vs Rodri">
+  <img src="../assets/progr.png" width="600" alt="Progressive passes: Kroos vs Rodri">
 </p>
 
 ## 1. The Question
