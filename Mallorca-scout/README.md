@@ -1,5 +1,5 @@
 # Data-Driven Scouting: A Player Recommendation System for RCD Mallorca
-<img src="dashboard/screenshots/overview1.png" width="350">
+<img src="dashboard/screenshots/overview1.png" width="450">
 
 **Master's Thesis — Big Data Applied to Football Scouting (Universidad Católica de Murcia | Sports Data Campus)**
 Author: Miguel Ángel Romero Tornero · Advisor: Pablo Sanzol · 2025
