@@ -1,4 +1,4 @@
-# Euro 2024 Midfield Comparison: Kroos vs. Rodri vs. Rice
+# <img src="../assets/profile.jpg" width="50" alt="Miguel Romero"> Euro 2024 Midfield Comparison: Kroos vs. Rodri vs. Rice
 
 **Data analysis & visualization project — Hudl open data**
 
