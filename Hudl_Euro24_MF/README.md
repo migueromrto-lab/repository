@@ -3,7 +3,7 @@
 **Data analysis & visualization project — StatsBomb open data**
 
 <p align="center">
-  <img src="assets/radar_comparison.png" width="600" alt="Percentile radar: Kroos vs Rodri vs Rice">
+  <img src="assets/progr.png" width="600" alt="Progressive passes: Kroos vs Rodri">
 </p>
 
 ## 1. The Question
