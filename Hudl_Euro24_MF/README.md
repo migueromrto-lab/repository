@@ -50,8 +50,7 @@ Euro 2024 was decided in the midfield. Three players, three different profiles a
 │   └── obtaining_data_and_visualizations.ipynb
 ├── report/
 │   └── euro_2024_midfield_comparison.pdf
-└── assets/
-    └── radar_comparison.png
+
 ```
 
 ## 8. Notes
