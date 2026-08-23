@@ -1,4 +1,4 @@
-# <img src="dashboard/screenshots/overview1.png" width="700"> Data-Driven Scouting: A Player Recommendation System for RCD Mallorca <img src="../assets/profile.jpg" width="60" alt="Miguel Romero">
+# <img src="dashboard/screenshots/overview1.png" width="700"> Data-Driven Scouting: A Player Recommendation System for RCD Mallorca
 
 
 **Master's Thesis — Big Data Applied to Football Scouting (Universidad Católica de Murcia | Sports Data Campus)**
