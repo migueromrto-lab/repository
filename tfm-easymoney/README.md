@@ -4,13 +4,13 @@ Master's Final Project · Nuclio Digital School · Group 1
 
 easyMoney is a fictional fintech that wants to shift its focus from acquiring new customers to selling more to the ones it already has (**cross-selling**). Using 17 months of customer and sales data (January 2018 – May 2019), the project answers four connected requests from management: what has happened, which product to offer to whom, who our customers are, and how much a campaign could earn.
 
-> English version of the team repository [SandraMartinezg/grupo-1-dscesp-0226](https://github.com/SandraMartinezg/grupo-1-dscesp-0226). Notebooks and documentation have been translated; code logic, file names and data are unchanged.
+> English version of the team repository [SandraMartinezg/grupo-1-dscesp-0226](https://github.com/SandraMartinezg/grupo-1-dscesp-0226). Notebooks, documentation and the simulator interface have been translated; code logic, file names and data are unchanged.
 
 ## The four tasks
 
 | Task | Business question | Approach | Notebook |
 |---|---|---|---|
-| **1. Dashboard** | What have we sold, to whom, and where is the margin? | Cleaning and joining the 5 tables in Python; Power BI dashboard (sales and customers) | `00_powerbi_limpieza` |
+| **1. Dashboard** | What have we sold, to whom, and where is the margin? | Cleaning and joining the 5 tables in Python; Power BI dashboard (sales and customers) — see [`easymoney-dashboard`](../easymoney-dashboard/) | `00_powerbi_limpieza` |
 | **2. Propensity** | Which customers should be offered each product? | Customer-month panel with previous-month features; comparison of 4 models (logistic regression, decision tree, Random Forest and Gradient Boosting) for `pension_plan` and `em_acount`; scoring for June 2019 | `02_tarea2_propension` |
 | **3. Segmentation** | Who are our customers? | Customers without products set apart + K-Means (k=7) on the rest → 8 named segments with a commercial profile | `03_tarea3_segmentacion` |
 | **4. Economic impact** | How many customers should we contact and how much can we earn? | Propensity × segmentation; conversion measured on actual purchases; Monte Carlo simulation of profit; interactive Streamlit simulator | `04_tarea4_impacto_economico` + `app/` |
