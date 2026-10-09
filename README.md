@@ -33,6 +33,7 @@ Data Scientist with a generalist, business-driven profile, working across retail
 | :---- | :---- | :---- |
 | [Cost-Sensitive Malware Detection](./malware-detection/malware_classification_miguel.ipynb) | Python, scikit-learn, LightGBM, Pandas | Classification model on 500K devices with a leakage-free preprocessing pipeline; benchmarked 4 algorithms by AUC and optimized the decision threshold against a false-negative/false-positive cost matrix. |
 | [Who's Buying Next? — Propensity Scoring for Cross-Sell](./propension-easymoney/1_Modelo_Propension_PensionPlan.ipynb) | Python, scikit-learn, Pandas | Business-driven propensity model on a 5.9M-row monthly customer panel (team TFM project); temporal split, decile/lift analysis, and Random Forest benchmark — 7x conversion lift over untargeted contact, capturing 55% of real buyers by targeting only the top 10% of customers. |
+| [easyMoney Cross-Selling Campaign — Master's Final Project](./tfm-easymoney/) | Python, scikit-learn, Pandas, Power BI, Streamlit | End-to-end team project for a fintech: Power BI sales dashboard, propensity models for two products, K-Means segmentation into 8 customer groups, and a Monte Carlo profit simulation behind an interactive Streamlit simulator. Recommended campaign reaches 93% of the model's sales with half the contacts (~€13.7M estimated monthly profit, 90% interval €13.0–14.4M). |
 | *Coming soon* | — | Interactive Power BI / Tableau dashboard |
 | *Coming soon* | — | Project with less-clean data (scraping / API sourcing) |
 
