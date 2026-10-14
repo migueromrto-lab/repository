@@ -1,11 +1,11 @@
-# <img src="../assets/profile.jpg" width="50" alt="Miguel Romero"> Euro 2024 Midfield Comparison: Kroos vs. Rodri vs. Rice
+# <img src="../../assets/profile.jpg" width="50" alt="Miguel Romero"> Euro 2024 Midfield Comparison: Kroos vs. Rodri vs. Rice
 
 **Data analysis & visualization project — StatsBomb Open Data**
 
 📄 [Full report (PDF)](reports/EURO2024MF.pdf)
 
 <p align="center">
-  <img src="../assets/progr.png" width="600" alt="Progressive passes: Kroos vs Rodri">
+  <img src="../../assets/progr.png" width="600" alt="Progressive passes: Kroos vs Rodri">
 </p>
 ## 1. The Question
 

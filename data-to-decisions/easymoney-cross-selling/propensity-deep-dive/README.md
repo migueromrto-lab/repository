@@ -1,13 +1,15 @@
-# Pension Plan Propensity Model — easyMoney (Team Project)
+# Deep Dive — Pension Plan Propensity Model
 
 Predicts which existing easyMoney customers are most likely to purchase
 `pension_plan` — the highest-margin product in the portfolio (79% of total
 margin) — in order to prioritize a limited-budget cross-sell campaign instead
 of contacting the full customer base.
 
-Built as part of a 3-person team's final Master's project (TFM), simulating a
-real fintech business case. Full team repo:
-[grupo-1-dscesp-0226](https://github.com/SandraMartinezg/grupo-1-dscesp-0226).
+Part of the [easyMoney cross-selling project](../). This folder is the
+detailed, single-model view of the propensity problem; the campaign figures in
+the main project README come from the four-model comparison in
+[`02_tarea2_propension`](../notebooks/02_tarea2_propension.ipynb), which uses
+its own feature set — which is why the lift figures below are not identical.
 
 **My contribution:** manual depth tuning under a strict temporal split (to
 avoid the leakage a standard cross-validation would introduce on monthly panel
@@ -60,8 +62,8 @@ alone wouldn't surface.
 
 ## Files
 
-- [`propension_pension_plan_miguel.ipynb`](./Modelo_Propension_PensionPlan.ipynb) — full technical notebook
-- [`Informe_Propension_PensionPlan.pdf`](./Informe_Propension_PensionPlan.pdf) — executive summary, business-facing
+- [`pension_plan_propensity_deep_dive.ipynb`](./pension_plan_propensity_deep_dive.ipynb) — full technical notebook (Spanish)
+- [`pension_plan_propensity_report.pdf`](./pension_plan_propensity_report.pdf) — executive summary, business-facing (Spanish)
 
 ## Stack
 
