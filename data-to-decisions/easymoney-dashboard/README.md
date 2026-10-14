@@ -1,8 +1,8 @@
 # easyMoney — Sales & Customer Dashboard (Power BI)
 
-Five-page Power BI dashboard for **easyMoney**, a fictional fintech, covering **17 months of sales and customer data (January 2018 – May 2019)**. It answers the first question management asked in our Master's final project: *what have we sold, to whom, where, and where does the margin come from?*
+Five-page Power BI dashboard for **easyMoney**, a fintech, covering **17 months of sales and customer data (January 2018 – May 2019)**. It answers the first question management asked in our cross-selling project: *what have we sold, to whom, where, and where does the margin come from?*
 
-This is my version of **Task 1** of the team project. The full project (propensity models, segmentation and campaign simulator) is in [`../tfm-easymoney`](../tfm-easymoney/).
+This is my version of **Task 1** of the team project. The full project (propensity models, segmentation and campaign simulator) is in [`../easymoney-cross-selling`](../easymoney-cross-selling/).
 
 📄 **[View the full dashboard (PDF)](./easymoney_dashboard.pdf)**
 
@@ -80,12 +80,12 @@ Every page shares three slicers — **year-month**, **customer type** and **prod
 
 | Step | Tool | Details |
 |---|---|---|
-| Data preparation | Python (pandas) | Cleaned and joined the 5 source tables (sales, sociodemographics, commercial activity, products, product descriptions) into one sales-level table. See [`00_powerbi_limpieza.ipynb`](../tfm-easymoney/notebooks/00_powerbi_limpieza.ipynb). |
+| Data preparation | Python (pandas) | Cleaned and joined the 5 source tables (sales, sociodemographics, commercial activity, products, product descriptions) into one sales-level table. See [`00_powerbi_limpieza.ipynb`](../easymoney-cross-selling/notebooks/00_powerbi_limpieza.ipynb). |
 | Missing values | Python | Gender → mode; region → `0` for foreign customers; salary → median; entry channel / segment → cross-imputation using each other's mode, `Desconocido` (unknown) when both were missing. |
 | Enrichment | Python | Region codes mapped to Spanish province names for the map. |
 | Data model & visuals | Power BI | Measures for total sales, total margin, average margin, unique customers and gender shares; shared slicers across pages; consistent brand colours. |
 
-**Data:** about 240K sales and 6M customer-month records (fictional data provided for the Master's project).
+**Data:** about 240K sales and 6M customer-month records.
 
 ## Files
 

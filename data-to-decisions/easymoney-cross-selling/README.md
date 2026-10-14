@@ -1,10 +1,12 @@
-# easyMoney Case Study — Data Science & AI Master's Final Project
+# easyMoney — Cross-Selling Campaign: From Data to Decision
 
-Master's Final Project · Nuclio Digital School · Group 1
+Collaborative data science project · Python · Power BI · Streamlit
 
-easyMoney is a fictional fintech that wants to shift its focus from acquiring new customers to selling more to the ones it already has (**cross-selling**). Using 17 months of customer and sales data (January 2018 – May 2019), the project answers four connected requests from management: what has happened, which product to offer to whom, who our customers are, and how much a campaign could earn.
+easyMoney is a fintech that wants to shift its focus from acquiring new customers to selling more to the ones it already has (**cross-selling**). Using 17 months of customer and sales data (January 2018 – May 2019), our team answered four connected requests from management: what has happened, which product to offer to whom, who our customers are, and how much a campaign could earn.
 
-> English version of the team repository [SandraMartinezg/grupo-1-dscesp-0226](https://github.com/SandraMartinezg/grupo-1-dscesp-0226). Notebooks, documentation and the simulator interface have been translated; code logic, file names and data are unchanged.
+**My contribution:** the propensity modelling for `pension_plan` — temporal split, depth tuning, decile/lift analysis and a Random Forest benchmark, documented in [`propensity-deep-dive/`](./propensity-deep-dive/) — and my own version of the Power BI dashboard, in [`easymoney-dashboard`](../easymoney-dashboard/).
+
+> Notebooks, documentation and the simulator interface are in English; the campaign deck and the dashboard labels are in Spanish, as they were built for a Spanish-speaking business audience.
 
 ## The four tasks
 
@@ -22,6 +24,10 @@ easyMoney is a fictional fintech that wants to shift its focus from acquiring ne
 - **Segmentation tells us where to stop:** customers with their salary paid into the account buy pension plans about 20 times more often than average; three segments (74% of the customer base) hardly buy at all.
 - **Proposed `pension_plan` campaign:** contact every customer in the salary and credit card segments and, in the remaining segments with potential, only the top 20% by model score. That is about **62,200 customers**, with a conversion rate of **3.7%** versus 0.66% at random and about **2,300 sales**: 93% of the sales the model alone would achieve, with half the contacts.
 - **Estimated profit:** about €13.7M in one month (between €13.0M and €14.4M with 90% probability), under assumed cost-per-contact figures. We recommend validating it with a one-month pilot with a control group.
+
+## Deep dive: `pension_plan` propensity
+
+[`propensity-deep-dive/`](./propensity-deep-dive/) goes deeper into the highest-margin product: depth tuning under a strict temporal split, feature importance, decile/lift analysis and a Random Forest benchmark, plus an executive report in PDF. It is the detailed, single-model view of the problem; the campaign figures above come from the four-model comparison in `02_tarea2_propension`.
 
 ## Pipeline
 
@@ -54,7 +60,7 @@ All cleaning and imputation for the modelling part is done **only once**, in `01
 ## Repository structure
 
 ```
-tfm-easymoney/
+easymoney-cross-selling/
 ├── app/
 │   ├── simulador.py        Campaign simulator (Streamlit)
 │   ├── requirements.txt
@@ -64,8 +70,7 @@ tfm-easymoney/
 │   ├── raw/                Original CSV files + data dictionary (not included)
 │   ├── processed/          Notebook outputs (regenerated when they run)
 │   └── app/                Lightweight data read by the simulator (included)
-├── docs/
-│   └── Enunciado_TFM.pdf   Project brief (Spanish)
+├── propensity-deep-dive/   My pension_plan propensity work: notebook + executive report
 ├── notebooks/
 │   ├── 00_powerbi_limpieza.ipynb          Power BI data cleaning
 │   ├── 01_base_comun.ipynb                Common base (cleaning + imputation)
