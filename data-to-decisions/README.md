@@ -4,6 +4,7 @@ Business projects where the analysis doesn't stop at a metric: each one ends in 
 
 | Project | Business question | Stack |
 | :---- | :---- | :---- |
+| [easyMoney Medallion Data Pipeline](./easymoney-cross-selling/data-pipeline/) | How do raw customer and sales files become reliable, tested tables a model and a dashboard can trust? | Databricks, PySpark, Delta Lake, pytest |
 | [easyMoney Cross-Selling Campaign](./easymoney-cross-selling/) | Which product should we offer, to whom, and how much can a campaign earn? | Python, scikit-learn, Power BI, Streamlit |
 | [easyMoney Sales & Customer Dashboard](./easymoney-dashboard/) | What have we sold, to whom, where, and where does the margin come from? | Power BI, Python (pandas) |
 | [Cost-Sensitive Malware Detection](./malware-detection/) | Which devices should be flagged, given that a missed infection costs more than a false alarm? | Python, scikit-learn, LightGBM |
