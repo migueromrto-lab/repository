@@ -37,6 +37,23 @@ def check_in_domain(df: DataFrame, col: str, allowed: list, allow_null: bool = F
         raise DataQualityError(f"{n_bad:,} values of '{col}' outside {list(allowed)}")
 
 
+def check_binary(df: DataFrame, cols: list[str]) -> None:
+    """Flag columns must be 0/1 with no nulls. Single pass over the data."""
+    counts = df.agg(*[
+        F.sum((F.col(c).isNull() | ~F.col(c).isin(0, 1)).cast("int")).alias(c) for c in cols
+    ]).first().asDict()
+    bad = {c: n for c, n in counts.items() if n}
+    if bad:
+        raise DataQualityError(f"Non-binary values: {bad}")
+
+
+def check_no_parse_loss(df: DataFrame, raw_col: str, parsed_col: str) -> None:
+    """A non-null raw value must not turn into NULL after parsing."""
+    n = df.filter(F.col(raw_col).isNotNull() & F.col(parsed_col).isNull()).count()
+    if n:
+        raise DataQualityError(f"{n:,} non-null '{raw_col}' values lost parsing into '{parsed_col}'")
+
+
 def check_row_count(df: DataFrame, expected: int, label: str) -> int:
     """Row count reconciliation between layers."""
     n = df.count()
