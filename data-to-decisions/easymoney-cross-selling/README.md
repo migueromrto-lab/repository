@@ -4,7 +4,7 @@ Collaborative data science project · Python · Power BI · Streamlit
 
 easyMoney is a fintech that wants to shift its focus from acquiring new customers to selling more to the ones it already has (**cross-selling**). Using 17 months of customer and sales data (January 2018 – May 2019), our team answered four connected requests from management: what has happened, which product to offer to whom, who our customers are, and how much a campaign could earn.
 
-**My contribution:** the propensity modelling for `pension_plan` — temporal split, depth tuning, decile/lift analysis and a Random Forest benchmark, documented in [`propensity-deep-dive/`](./propensity-deep-dive/) — and my own version of the Power BI dashboard, in [`easymoney-dashboard`](../easymoney-dashboard/).
+**My contribution:** the propensity modelling for `pension_plan` — temporal split, depth tuning, decile/lift analysis and a Random Forest benchmark, documented in [`propensity-deep-dive/`](./propensity-deep-dive/) — my own version of the Power BI dashboard, in [`easymoney-dashboard`](../easymoney-dashboard/), and the Databricks data pipeline in [`data-pipeline/`](./data-pipeline/).
 
 > Notebooks, documentation and the simulator interface are in English; the campaign deck and the dashboard labels are in Spanish, as they were built for a Spanish-speaking business audience.
 
@@ -29,7 +29,11 @@ easyMoney is a fintech that wants to shift its focus from acquiring new customer
 
 [`propensity-deep-dive/`](./propensity-deep-dive/) goes deeper into the highest-margin product: depth tuning under a strict temporal split, feature importance, decile/lift analysis and a Random Forest benchmark, plus an executive report in PDF. It is the detailed, single-model view of the problem; the campaign figures above come from the four-model comparison in `02_tarea2_propension`.
 
-## Pipeline
+## Data engineering: medallion pipeline on Databricks
+
+[`data-pipeline/`](./data-pipeline/) rebuilds the data preparation as a production-style pipeline: bronze, silver and gold Delta tables in PySpark, data quality checks at every layer, 13 unit tests and a Databricks job defined as code. Reconciling the holdings flag with the sales table showed that half of the `pension_plan` "new contracts" were reactivations with no sale, so the gold feature table uses actual sales as the target.
+
+## Notebook pipeline
 
 ```
                     ┌─► 00_powerbi_limpieza ──► df_powerbi.csv ──► Power BI (Task 1)
@@ -70,6 +74,7 @@ easymoney-cross-selling/
 │   ├── raw/                Original CSV files + data dictionary (not included)
 │   ├── processed/          Notebook outputs (regenerated when they run)
 │   └── app/                Lightweight data read by the simulator (included)
+├── data-pipeline/          Medallion pipeline on Databricks (PySpark, Delta, tests, job as code)
 ├── propensity-deep-dive/   My pension_plan propensity work: notebook + executive report
 ├── notebooks/
 │   ├── 00_powerbi_limpieza.ipynb          Power BI data cleaning
