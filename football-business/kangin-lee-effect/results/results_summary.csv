@@ -1,0 +1,15 @@
+metric_id,metric,estimate,ci_95_lo,ci_95_hi,unit
+youtube_korean_share_atletico_pre,YouTube · Atlético Korean comment share, Jan–May 2026,0.18,0.11,0.28,%
+youtube_korean_share_atletico_post,YouTube · Atlético Korean comment share, from 25 Jul 2026,24.39,16.59,31.25,%
+youtube_did_vs_real_madrid,YouTube · difference-in-differences vs Real Madrid,23.7,16.35,31.07,pp
+youtube_atletico_post_without_lee,YouTube · Atlético post, videos without Lee,8.56,6.59,10.77,%
+wikipedia_extra_visits_since_rumours,Korean Wikipedia · extra visits since rumours (model estimate),24340.71,23702.92,24846.98,visits
+wikipedia_extra_visits_conservative,Korean Wikipedia · extra visits, lower bound (worst-placebo error),17000,,,visits
+wikipedia_signing_month_lift,Korean Wikipedia · signing-month lift,1313.58,883.51,1805.01,%
+wikipedia_persistence_lift,Korean Wikipedia · lift from September,265.25,176.45,364.56,%
+wikipedia_model_r2_log,Korean Wikipedia · pre-period fit, R² (log),0.18,,,
+validation_2023_psg_lift,Validation 2023 · PSG transfer-month lift,382.86,208.75,508.09,%
+trends_korea_change,Google Trends · Korea, Atlético vs controls, post/pre,92.3,33.9,194.4,%
+trends_us_change,Google Trends · US, Atlético vs controls, post/pre,-59.9,-73.7,-36.5,%
+trends_japan_change,Google Trends · Japan, Atlético vs controls, post/pre,-33.9,-53.7,-4.8,%
+trends_korea_vs_placebo_markets,Google Trends · Korea vs US/JP relative change,260.59,126.67,496.01,%

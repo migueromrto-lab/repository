@@ -41,7 +41,7 @@ Production-style pipeline that takes 6M customer-month records from raw CSVs to 
 
 ## Projects
 
-Projects live in two folders: **[`data-to-decisions/`](./data-to-decisions/)** — business cases where the analysis ends in a decision — and **[`football/`](./football/)**, a separate set of football analytics work.
+Projects live in three folders: **[`data-to-decisions/`](./data-to-decisions/)** — business cases where the analysis ends in a decision —, **[`football/`](./football/)**, a separate set of football analytics work, and **[`football-business/`](./football-business/)**, a series on football as an industry: clubs, markets and audiences.
 
 ### Data to Decisions — business projects
 
@@ -59,6 +59,12 @@ Projects live in two folders: **[`data-to-decisions/`](./data-to-decisions/)** �
 | :---- | :---- | :---- |
 | [Data-Driven Scouting for RCD Mallorca](./football/Mallorca-scout/) | Python, Power BI | Player recommendation system for a club with a limited budget: open-data pipeline, custom scoring algorithm and interactive dashboard. |
 | [Euro 2024 Midfield Comparison](./football/Hudl_Euro24_MF/) | Python, StatsBomb Open Data | Kroos vs. Rodri vs. Rice: event-data analysis and visual report on three midfield profiles. |
+
+### Football business
+
+| Project | Stack | Description |
+| :---- | :---- | :---- |
+| [The Kang-in Lee Effect](./football-business/kangin-lee-effect/) | Python, Wikipedia & YouTube APIs, Google Trends | What Atlético de Madrid gained in South Korea by signing Kang-in Lee, measured against control clubs and placebo markets. Korean-language comments under the club's videos went from 0.18% to 24.4% (difference-in-differences vs. Real Madrid: +23.7 pp); search interest rose 92% in Korea and fell in the US and Japan. Separates short-lived attention from a lasting shift in audience. |
 
 Each project folder contains its own README with full methodology, results, and business framing.
 
