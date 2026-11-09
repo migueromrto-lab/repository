@@ -1,0 +1,16 @@
+metric,value,unit,note
+"Betting share of top-flight shirts, LaLiga peak",50.0,%,19/20
+"Betting share, LaLiga last season before ban",35.0,%,20/21
+"Betting share, Premier League last season before ban",55.00000000000001,%,25/26
+Clubs changing main sponsor each season,35.08887425938117,%,all divisions
+LaLiga betting replacements that lasted one season,6.0,of 7,21/22
+"Median sponsorship length, crypto & trading",1.0,seasons,Kaplan–Meier
+"Median sponsorship length, betting",2.0,seasons,Kaplan–Meier
+"Median sponsorship length, airlines & travel",4.0,seasons,Kaplan–Meier
+"Median sponsorship length, all sectors",2.0,seasons,Kaplan–Meier
+"Odds ratio of leaving, crypto vs other (robust)",3.525986280793817,x,p=0.001
+"Odds ratio of leaving, airlines vs other (robust)",0.3935498738995278,x,p=0.028
+"Odds ratio of leaving, betting vs other (robust)",1.3069281477289088,x,p=0.143
+Odds ratio of leaving after relegation (robust),1.3319488179320198,x,p=0.254
+Odds ratio of leaving after promotion (robust),1.583995055178478,x,p=0.061
+Premier League replacements expected on the shirt in 2027/28,4.299139252446645,of 7,sector averages
