@@ -5,5 +5,6 @@ Football as an industry: clubs as companies, players as market entry points, fan
 | Project | Business question | Stack |
 | :---- | :---- | :---- |
 | [The Kang-in Lee Effect](./kangin-lee-effect/) | What did Atlético de Madrid gain in South Korea by signing Kang-in Lee? | Python, Wikipedia & YouTube APIs, Google Trends, counterfactual modelling, bootstrap |
+| [Shirt Sponsor Churn](./shirt-sponsor-churn/) | When a whole sector is banned from the shirt, who replaces it and how long do they stay? | Python, MediaWiki API, survival analysis (Kaplan–Meier), discrete-time hazard model, statsmodels |
 
 [← Back to portfolio](../)
