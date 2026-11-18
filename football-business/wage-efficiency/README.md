@@ -51,7 +51,7 @@ Full tables in [`results/`](results/).
    - **Points vs expected** = (actual − expected PPG) × games played.
    - **Overpaid €** = wage bill − the wage bill the model needs for the points actually won.
    - Quadrants: wage bill above/below the league median × performance above/below expected.
-3. **Robustness**: the ranking is re-run with squad market value instead of wages, and with goal difference per game or final position instead of PPG. Goal difference gives an almost identical ranking; the other two keep most of the top 10.
+3. **Robustness**: the ranking is re-run with squad market value instead of wages, and with goal difference per game or final position instead of PPG. Spearman rank correlation with the main ranking: 0.92 (goal difference), 0.93 (final position), 0.76 (squad market value).
 
 ## Limitations
 
