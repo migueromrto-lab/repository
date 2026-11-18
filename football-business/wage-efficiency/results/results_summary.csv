@@ -1,0 +1,11 @@
+metric,value
+Club-seasons analysed,484
+"Mean R² (wages -> PPG), all leagues",0.58
+"Mean R², Bundesliga",0.54
+"Mean R², LaLiga",0.69
+"Mean R², Ligue 1",0.52
+"Mean R², Premier League",0.46
+"Mean R², Serie A",0.67
+Biggest 5-season overspend,"Man United, +€294m"
+Best 5-season value,"Lens, +88 pts above expected"
+Spearman: residual vs % wages estimated,0.01
