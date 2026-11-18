@@ -6,7 +6,7 @@ Wages are the biggest cost line of any football club and the best single predict
 
 The project builds a club-season panel for Europe's Big 5 leagues (2021/22–2025/26, **484 club-seasons**), fits an expected-points model from wages and ranks every club by how far it lands above or below that line, in points and in euros.
 
-**[→ Interactive app](./app/)** · ranking, wages-vs-points chart per league and season, and a profile for every club.
+**[→ Live interactive app](https://football-wage-efficiency.streamlit.app/)** ([source](./app/)) · ranking, wages-vs-points chart per league and season, and a profile for every club.
 
 <p align="center">
   <img src="images/overpaid_top10.png" width="420" alt="Clubs that overpaid most for their results, 2021/22–2025/26">
@@ -75,7 +75,11 @@ wage-efficiency/
 
 The notebooks run in Google Colab with data stored in Google Drive (paths at the top of each notebook).
 
-## Run the app locally
+## Run the app
+
+Live: **https://football-wage-efficiency.streamlit.app/**
+
+Locally:
 
 ```bash
 cd app
